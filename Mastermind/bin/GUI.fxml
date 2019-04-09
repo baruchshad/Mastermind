@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="544.0" prefWidth="579.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ScrollBar layoutX="554.0" orientation="VERTICAL" prefHeight="544.0" prefWidth="22.0" />
+      <TextArea layoutX="7.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 1" />
+      <TextArea layoutX="94.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 2" />
+      <TextArea layoutX="185.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 3" />
+      <TextArea layoutX="458.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 6" />
+      <TextArea layoutX="371.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 5" />
+      <TextArea layoutX="278.0" layoutY="248.0" prefHeight="60.0" prefWidth="80.0" promptText="Color 4" />
+      <Button layoutX="234.0" layoutY="325.0" mnemonicParsing="false" text="Submit" textAlignment="CENTER" textFill="#383c08" />
+      <TextArea layoutX="47.0" layoutY="319.0" prefHeight="68.0" prefWidth="129.0" />
+      <TextArea layoutX="371.0" layoutY="319.0" prefHeight="68.0" prefWidth="129.0" />
+      <Label layoutX="24.0" layoutY="393.0" prefHeight="27.0" prefWidth="175.0" text="Correct color &amp; spot" />
+      <Label layoutX="371.0" layoutY="393.0" prefHeight="27.0" prefWidth="129.0" text="Correct color" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
