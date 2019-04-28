@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="545.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="545.0" fitWidth="858.0" layoutX="1.0">
+         <image>
+            <Image url="@../../bamboopic.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="301.0" layoutY="14.0" text="MasterMind" textAlignment="JUSTIFY" textFill="#003fff">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="450.0" layoutY="178.0" minWidth="-Infinity" prefHeight="260.0" prefWidth="300.0" snapToPixel="false">
+        <columnConstraints>
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="115.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fx:id="c10" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c11" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c14" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c12" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c13" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c30" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c31" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c32" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c33" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c34" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c20" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c21" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c22" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c23" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c24" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c40" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c41" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c42" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c43" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="c44" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Circle>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="45.0" snapToPixel="false">
+               <children>
+                  <Circle fx:id="ak52" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM" />
+                  <Circle fx:id="ak50" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak53" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak51" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" hgrow="NEVER" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="45.0" snapToPixel="false" GridPane.rowIndex="1">
+               <children>
+                  <Circle fx:id="ak42" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM" />
+                  <Circle fx:id="ak40" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak43" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak41" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" hgrow="NEVER" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="45.0" snapToPixel="false" GridPane.rowIndex="2">
+               <children>
+                  <Circle fx:id="ak32" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM" />
+                  <Circle fx:id="ak30" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak33" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak31" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" hgrow="NEVER" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="45.0" snapToPixel="false" GridPane.rowIndex="3">
+               <children>
+                  <Circle fx:id="ak22" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM" />
+                  <Circle fx:id="ak20" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak23" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak21" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" hgrow="NEVER" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="45.0" snapToPixel="false" GridPane.rowIndex="4">
+               <columnConstraints>
+                  <ColumnConstraints fillWidth="false" hgrow="NEVER" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints fillHeight="false" maxHeight="-Infinity" minHeight="10.0" prefHeight="65.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Circle fx:id="ak12" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.valignment="BOTTOM" />
+                  <Circle fx:id="ak10" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak13" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.valignment="BOTTOM" GridPane.vgrow="ALWAYS" />
+                  <Circle fx:id="ak11" radius="5.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="RIGHT" GridPane.valignment="TOP" />
+               </children>
+            </GridPane>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="3.0" top="5.0" />
+         </opaqueInsets>
+      </GridPane>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="New" />
+                  <MenuItem mnemonicParsing="false" text="Restart" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+                  <MenuItem mnemonicParsing="false" text="How To Play" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <GridPane layoutX="20.0" layoutY="339.0" prefHeight="90.0" prefWidth="105.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" maxWidth="34.0" minWidth="10.0" prefWidth="34.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="-Infinity" minWidth="10.0" prefWidth="34.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="34.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fx:id="key1" fill="#0b7ef2" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="key2" fill="#f80314" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
+            <Circle fx:id="key3" fill="#e0ed0c" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" />
+            <Circle fx:id="key4" fill="#53f209" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="1" />
+            <Circle fx:id="key5" fill="#f56a07" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Circle fx:id="key6" fill="#100b96" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Label layoutX="28.0" layoutY="308.0" text="Color Key" textFill="#003fff">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="lockButton" layoutX="450.0" layoutY="449.0" mnemonicParsing="false" onAction="#compareInput" prefHeight="31.0" prefWidth="300.0" text="Lock In!">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <Label fx:id="mcLabel" layoutX="207.0" layoutY="103.0" text="Master Code" textFill="#003fff" visible="false">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="mcPane" layoutX="201.0" layoutY="143.0" visible="false">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="43.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="43.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="43.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fx:id="mc0" fill="#e6ecf2" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="mc1" fill="#e6ecf2" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
+            <Circle fx:id="mc2" fill="#e6ecf2" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" />
+            <Circle fx:id="mc3" fill="#e6ecf2" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" />
+         </children>
+      </GridPane>
+      <TextField fx:id="mcMessage" editable="false" focusTraversable="false" layoutX="193.0" layoutY="178.0" visible="false" />
+   </children>
+</AnchorPane>
